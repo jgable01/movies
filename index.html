@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Template</title>
+    <script src="./assets/script/script.js" defer></script>
+    <link rel="stylesheet" href="assets/style/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="container flex">
+        <div class="header-title">
+          <h1>Movies</h1>
+        </div>
+        <div class="header-nav">
+          <nav>
+            <ul>
+              <li>Movies</li>
+              <li>Theaters</li>
+              <li>About us</li>
+              <li>My Account</li>
+            </ul>
+          </nav>
+        </div>
+        <div class="dropdown-header-nav hide">
+          <nav>
+            <ul>
+              <li>Movies</li>
+              <li>Theaters</li>
+              <li>About us</li>
+              <li>My Account</li>
+            </ul>
+          </nav>
+        </div>
+        <div class="dropdown">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+    </header>
+    <!-- End of header -->
+    <div class="container">
+      <div class="searchBars">
+        <div class="search films">
+          <input type="text" class='input-film' placeholder="Enter Film Title" />
+        <div class="films-dropdown">
+        </div>          
+        </div>
+        <div class="search city">
+          <input type="text" class='input-city' placeholder="Enter City Name" />
+          <div class="city-dropdown"></div>
+        </div>
+        <div class="input-search">
+          <input type="button" class="input-field-search" value="Search" />
+        </div>
+      </div>
+      <div class="movies"></div>
+      <div class="cities"></div>
+    </div>
+  </body>
+</html>
