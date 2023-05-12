@@ -129,14 +129,6 @@ async function displayCitiesAndMovies() {
 // Function to display cities and movies on page load
 displayCitiesAndMovies();
 
-async function toArray() {
-  let movies = await getMovies();
-  movies.forEach((movie) => {
-    movies = movie;
-  });
-  return movies;
-}
-
 // Function to display search movie results in dropdown
 async function displaySearchResultsMovie(filteredArr) {
   const output = !filteredArr.length ? "" : filteredArr.join("");
